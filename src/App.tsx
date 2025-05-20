@@ -12,7 +12,7 @@ function App() {
        <div className="app">
       <nav className="navbar">
         <div className="nav-container">
-          <div className="logo">Swahilipot Hub</div>
+          <div className="logo">Swahilipot Hub Foundation</div>
           <ul className="nav-links">
             <li 
               className={activeSection === 'home' ? 'active' : ''}
