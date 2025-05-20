@@ -1,4 +1,4 @@
-import { Hackathon } from './components/Hackathon'
+import { Hackathon } from './Hackathon'
 import './App.css'
 
 function App() {
