@@ -5,7 +5,7 @@ const Header: React.FC = () => {
   return (
     <header className="header">
       <div className="header-content">
-        <h1>SWAHILIPOT | Pwani Innovation Week 2025</h1>
+        <h1>SWAHILIPOT | Pwani Innovation Week 2025 </h1>
         <p>Empowering Minds • Driving Change • Igniting Innovation</p>
         <p>📍 Venue: SwahiliPot Hub, Mombasa</p>
         <p>📅 Dates: [Insert Event Dates Here]</p>
