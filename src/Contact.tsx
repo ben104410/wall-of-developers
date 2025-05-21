@@ -1,4 +1,5 @@
 // src/components/Contact.jsx
+import { CSSProperties } from 'react';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 function Contact() {
@@ -24,7 +25,7 @@ function Contact() {
   );
 }
 
-const styles = {
+const styles: { [key: string]: CSSProperties } = {
   section: {
     padding: '20px',
     textAlign: 'center',
