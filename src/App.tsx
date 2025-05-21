@@ -81,10 +81,21 @@ function App() {
   const [activeSection, setActiveSection] = useState('home');
 
   return (
+
+    
+      
+      
+      
+       <div className="app">
+      <nav className="navbar">
+        <div className="nav-container">
+          <div className="logo">Swahilipot Hub Foundation</div>
+
      <div className="app">
       <nav className="navbar">
         <div className="nav-container">
           <div className="logo">Swahilipot Hub</div>
+
           <ul className="nav-links">
             <li 
               className={activeSection === 'home' ? 'active' : ''}
@@ -92,7 +103,11 @@ function App() {
             >
               Home
             </li>
+
+            <li
+
             <li 
+
               className={activeSection === 'about' ? 'active' : ''}
               onClick={() => setActiveSection('about')}
             >
@@ -107,9 +122,16 @@ function App() {
           </ul>
         </div>
       </nav>
+
+
+
+      
+    </div>
+
 </div>
 
       
+
   );
 }
 
