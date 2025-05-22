@@ -1,19 +1,37 @@
-import React from 'react';
-import './navbar.css';
+import styles from './Navbar.module.css'
 
-const Navbar: React.FC = () => {
-  return (
-    <nav className="navbar">
-      <div className="logo">Pwani Innovation Week</div>
-      <ul className="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#speakers">Speakers</a></li>
-        <li><a href="#agenda">Agenda</a></li>
-        <li><a href="#register">Register</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  );
-};
+export default function Navbar() {    const scrollToSection = (id: string) => {
+        const element = document.getElementById(id);
+        if (element) {
+            const navbarHeight = 80; // Height of fixed navbar
+            const elementPosition = element.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - navbarHeight;
+            
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
+        }
+    };
 
-export default Navbar;
+    return (
+        <div>
+            <nav className={styles.navbar}>
+                <div className={styles.navbarLogo}>
+                    <img src="/assets/sph-logo.png" alt="Logo" />
+                </div>                <div className={styles.navbarLinks}>
+                    <button onClick={() => scrollToSection('panel')} className={styles.navButton}>Home</button>
+                    <button onClick={() => scrollToSection('hackathon')} className={styles.navButton}>Hackathon</button>
+                    <button onClick={() => scrollToSection('panel')} className={styles.navButton}>Panel</button>
+                    <button onClick={() => scrollToSection('pitches')} className={styles.navButton}>Pitches</button>
+                    <button onClick={() => scrollToSection('footer')} className={styles.navButton}>Contacts</button>
+                </div>
+            </nav>
+            <div className={styles.hero}>
+                <div className={styles.heroImage}>
+                    <img src="/assets/innovation.webp" alt="Hackathon" />
+                </div>
+            </div>
+        </div>
+    )
+}
