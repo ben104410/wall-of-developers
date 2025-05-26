@@ -1,4 +1,7 @@
+// import { Hackathon } from './Hackathon'
+// If the file is named differently, update the import path accordingly, e.g.:
 import { Hackathon } from './Hackathon'
+// Or, if the file does not exist, create 'Hackathon.tsx' or 'Hackathon.js' in the same directory and export 'Hackathon' from it.
 import './App.css'
 import Header from './header'
 import { About } from './About'
