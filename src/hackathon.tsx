@@ -2,7 +2,7 @@ import './Hackathon.css';
 
 export function Hackathon() {
   return (
-    <div className="hackathon" id="hackathon"> {/* 👈 Add this ID */}
+    <div className="hackathon">
       <div className="hackathon-header">
         <h1>Hackathon 2025</h1>
         <p>Innovate, Collaborate, and Create!</p>
