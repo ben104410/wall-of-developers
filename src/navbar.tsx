@@ -23,7 +23,7 @@ export default function Navbar() {    const scrollToSection = (id: string) => {
                     <button onClick={() => scrollToSection('panel')} className={styles.navButton}>Home</button>
                     <button onClick={() => scrollToSection('hackathon')} className={styles.navButton}>Hackathon</button>
                     <button onClick={() => scrollToSection('panel')} className={styles.navButton}>Panel</button>
-                    <button onClick={() => scrollToSection('pitches')} className={styles.navButton}>Pitches</button>
+                    <button onClick={() => scrollToSection('pitches')} className={styles.navButton}>Peeches</button>
                     <button onClick={() => scrollToSection('footer')} className={styles.navButton}>Contacts</button>
                 </div>
             </nav>

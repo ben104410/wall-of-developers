@@ -4,8 +4,10 @@ import Header from './header'
 import { About } from './About'
 import Navbar from './navbar'
 import Peeches from './peeches'
-import { Footer } from './Footer'
+import InfoPanel from './InfoPanel'
 import Contact from './Contact'
+import { Footer } from './Footer'
+
 
 function App() {
   
@@ -15,7 +17,7 @@ function App() {
       <About />
       <Navbar />
       <Peeches />
-      <Peeches />
+      <InfoPanel />
       <Hackathon />
       <Footer />
       <Contact />

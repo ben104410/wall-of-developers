@@ -1,11 +1,11 @@
 import React from 'react';
-import styles from './InfoPanel.module.css';
+import styles from './panel.module.css'; // ✅ Fix the extension
 
 const InfoPanel: React.FC = () => {
   return (
-    <div id="panel" className={styles.infoPanel}>
+    <div id="panel" className={styles.panel}>
       <h2 className={styles.theme}>Empowering Innovation for a Sustainable Future</h2>
-      
+
       <p className={styles.info}><strong>Date:</strong> May 15–17, 2025</p>
       <p className={styles.info}><strong>Venue:</strong> Swahilipot Hub, Mombasa</p>
 
@@ -18,7 +18,8 @@ const InfoPanel: React.FC = () => {
         <li>Networking Sessions</li>
       </ul>
 
-      <h3 className={styles.heading}>Target Audience:</h3>      <p className={styles.targetAudience}>
+      <h3 className={styles.heading}>Target Audience:</h3>
+      <p className={styles.targetAudience}>
         Innovators, Startups, Investors, Students, and Development Partners
       </p>
     </div>
@@ -26,3 +27,4 @@ const InfoPanel: React.FC = () => {
 };
 
 export default InfoPanel;
+

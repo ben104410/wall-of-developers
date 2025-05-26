@@ -2,6 +2,7 @@ import './peeches.css';
 
 const Peeches = () => {
   return (
+     <div className="pitches" id="pitches">
     <div className="slides-container">
       {/* Hero Slide */}
       <section className="slide hero">
@@ -40,6 +41,7 @@ const Peeches = () => {
         </div>
       </section>
     </div>
+  </div>
   );
 };
 
