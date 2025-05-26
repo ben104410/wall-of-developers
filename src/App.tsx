@@ -6,7 +6,7 @@ import Navbar from './navbar'
 import Peeches from './peeches'
 import InfoPanel from './InfoPanel'
 import Contact from './Contact'
-import { Footer } from './Footer'
+import { Footer } from './Footer'; 
 
 
 function App() {
