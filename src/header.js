@@ -1,0 +1,6 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import './header.css';
+const Header = () => {
+    return (_jsx("header", { className: "header", children: _jsxs("div", { className: "header-content", children: [_jsx("h1", { children: "SWAHILIPOT | Pwani Innovation Week 2025 " }), _jsx("p", { children: "Empowering Minds \u2022 Driving Change \u2022 Igniting Innovation" }), _jsx("p", { children: "\uD83D\uDCCD Venue: SwahiliPot Hub, Mombasa" }), _jsx("p", { children: "\uD83D\uDCC5 Dates: [Insert Event Dates Here]" }), _jsx("p", { children: "Welcome to the official platform for Pwani Innovation Week \u2014 a celebration of creativity, technology, and entrepreneurial spirit along Kenya\u2019s beautiful coastal region." }), _jsx("p", { children: "\u2728 Discover new ideas. \uD83E\uDD1D Connect with innovators. \uD83D\uDE80 Launch the future." }), _jsx("p", { children: "Join us as we shape a thriving, inclusive digital economy from the Coast of Kenya." }), _jsx("p", { children: "#PwaniInnovationWeek | #SwahiliPot | #InnovationFromTheCoast" }), _jsx("a", { href: "https://www.swahilipot.or.ke/piw2025", target: "_blank", rel: "noopener noreferrer", children: "Visit: www.swahilipot.or.ke/piw2025" })] }) }));
+};
+export default Header;
