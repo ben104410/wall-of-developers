@@ -32,6 +32,9 @@ export default function Navbar() {    const scrollToSection = (id: string) => {
                     <img src="/assets/innovation.webp" alt="Hackathon" />
                 </div>
             </div>
+             <ul>
+                <li><a href="#hackathon">Hackathon</a></li>
+             </ul>
         </div>
     )
 }
